@@ -31,6 +31,7 @@ DotJoshJohnson.xml
 dsznajder.es7-react-js-snippets
 infarkt.css-to-jss
 paulmolluzzo.convert-css-in-js
+pkief.material-icon-theme
 rangav.vscode-thunder-client
 styled-components.vscode-styled-components
 vunguyentuan.vscode-postcss
