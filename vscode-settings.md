@@ -88,95 +88,95 @@ cat vscode-ext-install.txt | xargs -L1 code --install-extension
 ```json
 {
   {
-	"React Component": {
-		"prefix": "rc",
-		"body": [
-			"const ${TM_FILENAME_BASE} = () => {",
-			"\treturn (",
-			"\t\t<div>",
-			"\t\t\t${TM_FILENAME_BASE}",
-			"\t\t</div>",
-			"\t);",
-			"};",
-			"",
-			"export default ${TM_FILENAME_BASE};",
-			"",
-		],
-	},
-	"React Component w/ Props": {
-		"prefix": "rcp",
-		"body": [
-			"const ${TM_FILENAME_BASE} = () => {",
-			"\treturn (",
-			"\t\t<div>",
-			"\t\t\t${TM_FILENAME_BASE}",
-			"\t\t</div>",
-			"\t);",
-			"};",
-			"${TM_FILENAME_BASE}.propTypes = {};",
-			"${TM_FILENAME_BASE}.defaultProps = {};",
-			"",
-			"export default ${TM_FILENAME_BASE};",
-			"",
-		],
-	},
-	"Styled-component": {
-		"prefix": "sc",
-		"body": [
-			"const StyledDiv = styled.div`",
-			"\tpadding: 1em;",
-			"`;",
-		],
-	},
-	"Styled-component w/Theme": {
-		"prefix": "sct",
-		"body": [
-			"const StyledDiv = styled.div(({ theme }) => {",
-			"\tconst { space } = theme;",
-			"",
-			"\treturn `",
-			"\t\tpadding: ${space.md};",
-			"\t`;",
-			"});",
-		],
-	},
-	"propTypes and defaultProps": {
-		"prefix": "pt",
-		"body": [
-			"${TM_FILENAME_BASE}.propTypes = {};",
-			"${TM_FILENAME_BASE}.defaultProps = {};",
-		],
-	},
-	"propTypes w/ children and defaultProps": {
-		"prefix": "ptc",
-		"body": [
-			"${TM_FILENAME_BASE}.propTypes = {",
-			"\tchildren: oneOfType([",
-			"\t\tarrayOf(node),",
-			"\t\tnode,",
-			"\t]),",
-			"};",
-			"${TM_FILENAME_BASE}.defaultProps = {};",
-		],
-	},
-	"JSDoc-style Documentation block": {
-		"prefix": "jsdoc",
-		"body": [
-			"/**",
-			" * Description of function",
-			" * ",
-			" * @param {type} name Description of param",
-			" * @param {type} name Description of param",
-			" * @return {type} Description of return",
-			" */",
-		],
-	},
-	"pre JSON stringify": {
-		"prefix": "pj",
-		"body": [
-			"<pre>{JSON.stringify(value, ' ', 2)}</pre>",
-		],
-	},
-}
+    "React Component": {
+      "prefix": "rc",
+      "body": [
+        "const ${TM_FILENAME_BASE} = () => {",
+        "\treturn (",
+        "\t\t<div>",
+        "\t\t\t${TM_FILENAME_BASE}",
+        "\t\t</div>",
+        "\t);",
+        "};",
+        "",
+        "export default ${TM_FILENAME_BASE};",
+        "",
+      ],
+    },
+    "React Component w/ Props": {
+      "prefix": "rcp",
+      "body": [
+        "const ${TM_FILENAME_BASE} = () => {",
+        "\treturn (",
+        "\t\t<div>",
+        "\t\t\t${TM_FILENAME_BASE}",
+        "\t\t</div>",
+        "\t);",
+        "};",
+        "${TM_FILENAME_BASE}.propTypes = {};",
+        "${TM_FILENAME_BASE}.defaultProps = {};",
+        "",
+        "export default ${TM_FILENAME_BASE};",
+        "",
+      ],
+    },
+    "Styled-component": {
+      "prefix": "sc",
+      "body": [
+        "const StyledDiv = styled.div`",
+        "\tpadding: 1em;",
+        "`;",
+      ],
+    },
+    "Styled-component w/Theme": {
+      "prefix": "sct",
+      "body": [
+        "const StyledDiv = styled.div(({ theme }) => {",
+        "\tconst { space } = theme;",
+        "",
+        "\treturn `",
+        "\t\tpadding: ${space.md};",
+        "\t`;",
+        "});",
+      ],
+    },
+    "propTypes and defaultProps": {
+      "prefix": "pt",
+      "body": [
+        "${TM_FILENAME_BASE}.propTypes = {};",
+        "${TM_FILENAME_BASE}.defaultProps = {};",
+      ],
+    },
+    "propTypes w/ children and defaultProps": {
+      "prefix": "ptc",
+      "body": [
+        "${TM_FILENAME_BASE}.propTypes = {",
+        "\tchildren: oneOfType([",
+        "\t\tarrayOf(node),",
+        "\t\tnode,",
+        "\t]),",
+        "};",
+        "${TM_FILENAME_BASE}.defaultProps = {};",
+      ],
+    },
+    "JSDoc-style Documentation block": {
+      "prefix": "jsdoc",
+      "body": [
+        "/**",
+        " * Description of function",
+        " * ",
+        " * @param {type} name Description of param",
+        " * @param {type} name Description of param",
+        " * @return {type} Description of return",
+        " */",
+      ],
+    },
+    "pre JSON stringify": {
+      "prefix": "pj",
+      "body": [
+        "<pre>{JSON.stringify(value, ' ', 2)}</pre>",
+      ],
+    },
+  }
 }
 ```
