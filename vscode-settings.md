@@ -53,6 +53,7 @@ cat vscode-ext-install.txt | xargs -L1 code --install-extension
   "editor.fontFamily": "Monaspace Neon, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.lineHeight": 0,
+  "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.fontLigatures": false,
