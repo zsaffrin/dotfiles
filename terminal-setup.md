@@ -50,7 +50,7 @@ brew install eza
 
 ## aliases
 
-Create a local copy of the [.shell-aliases](./.shell-aliases) file in this repo
+Create a local copy of the [.shell_aliases](./.shell_aliases) file in this repo
 
 Then add this to your `.zshrc` file:
 
