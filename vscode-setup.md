@@ -51,15 +51,24 @@ cat vscode-ext-install.txt | xargs -L1 code --install-extension
 {
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showTabs": "single",
   "workbench.editor.labelFormat": "short",
+  "workbench.editor.decorations.colors": true,
+  "workbench.activityBar.location": "top",
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.enableStickyScroll": true,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
   "editor.detectIndentation": false,
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "blink",
-  "editor.fontFamily": "Monaspace Neon, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 0,
-  "editor.insertSpaces": true,
+  "editor.fontFamily": "'MonaspiceNe Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
   "editor.tabSize": 2,
+  "editor.insertSpaces": true,
   "editor.wordWrap": "on",
   "editor.fontLigatures": false,
   "editor.formatOnPaste": true,
@@ -67,10 +76,13 @@ cat vscode-ext-install.txt | xargs -L1 code --install-extension
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.codeActionsOnSave": ["source.fixAll.eslint"],
   "emmet.triggerExpansionOnTab": true,
-  "git.enabled": false,
+  "files.trimFinalNewlines": true,
   "eslint.enable": true,
   "eslint.execArgv": null,
   "eslint.validate": [
@@ -84,7 +96,20 @@ cat vscode-ext-install.txt | xargs -L1 code --install-extension
   "search.exclude": {
     "**/node_modules": true
   },
-  "terminal.integrated.fontSize": 14
+  "git.autofetch": true,
+  "git.enableSmartCommit": false,
+  "git.confirmSync": false,
+  "terminal.integrated.fontSize": 14,
+  "window.density.editorTabHeight": "compact",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.invisibleCharacters": true
+  },
+  "[plaintext]": {
+    "editor.unicodeHighlight.invisibleCharacters": true
+  }
 }
 ```
 
