@@ -12,14 +12,13 @@ My preferred Visual Studio Code settings and customizations
   - Theme: Default Dark Modern
   - Icons: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - Editing
   - [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
 - Languages
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
   - [CSS-in-JS](https://marketplace.visualstudio.com/items?itemName=paulmolluzzo.convert-css-in-js)
-  - [CSS to JSS](https://marketplace.visualstudio.com/items?itemName=infarkt.css-to-jss)
   - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
-  - [PostCSS Intellisense and Highlighting](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-postcss)
   - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 - Utilities
   - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
@@ -29,18 +28,20 @@ My preferred Visual Studio Code settings and customizations
 Save the following as file `vscode-ext-install.txt`
 
 ```
-britesnow.vscode-toggle-quotes
-dbaeumer.vscode-eslint
-DotJoshJohnson.xml
-dsznajder.es7-react-js-snippets
 pkief.material-icon-theme
-rangav.vscode-thunder-client
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+britesnow.vscode-toggle-quotes
+dsznajder.es7-react-js-snippets
+paulmolluzzo.convert-css-in-js
 styled-components.vscode-styled-components
+DotJoshJohnson.xml
+rangav.vscode-thunder-client
 ```
 
 Then run:
 
-```
+```shell
 cat vscode-ext-install.txt | xargs -L1 code --install-extension
 ```
 
