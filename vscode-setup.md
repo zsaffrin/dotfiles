@@ -99,6 +99,7 @@ cat vscode-ext-install.txt | xargs -L1 code --install-extension
   "git.autofetch": true,
   "git.enableSmartCommit": false,
   "git.confirmSync": false,
+  "git.postCommitCommand": "sync",
   "terminal.integrated.fontSize": 14,
   "window.density.editorTabHeight": "compact",
   "[json]": {
