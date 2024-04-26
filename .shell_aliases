@@ -1,0 +1,6 @@
+alias dcup="docker compose up -d"
+alias dcupl="docker compose up -d && docker compose logs -tf"
+alias l="eza --long --color=always --icons=always --no-time --no-user --no-permissions"
+alias la="eza --all --long --color=always --icons=always --no-time --no-user --no-permissions"
+alias lt="eza --tree --icons=always"
+alias lta="eza --all --tree --icons=always"
