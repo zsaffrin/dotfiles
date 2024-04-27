@@ -2,10 +2,6 @@
 
 My preferred Visual Studio Code settings and customizations
 
-# Font
-
-- [Monaspace Neon](https://github.com/githubnext/monaspace)
-
 # Extensions
 
 - Theme/Experience
