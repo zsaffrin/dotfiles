@@ -5,7 +5,7 @@ My preferred Visual Studio Code settings and customizations
 # Extensions
 
 - Theme/Experience
-  - Theme: Default Dark Modern
+  - Theme: Default Dark Modern (included with app)
   - Icons: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
@@ -21,18 +21,20 @@ My preferred Visual Studio Code settings and customizations
 
 ## Extension list for quick install
 
+_Note: These should already be installed if you used the Brewfile approach described in the [osx-setup](osx-setup.md) guide_
+
 Save the following as file `vscode-ext-install.txt`
 
 ```
-pkief.material-icon-theme
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
 britesnow.vscode-toggle-quotes
-dsznajder.es7-react-js-snippets
-paulmolluzzo.convert-css-in-js
-styled-components.vscode-styled-components
+dbaeumer.vscode-eslint
 DotJoshJohnson.xml
+dsznajder.es7-react-js-snippets
+esbenp.prettier-vscode
+paulmolluzzo.convert-css-in-js
+pkief.material-icon-theme
 rangav.vscode-thunder-client
+styled-components.vscode-styled-components
 ```
 
 Then run:
