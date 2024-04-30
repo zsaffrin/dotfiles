@@ -2,50 +2,42 @@
 
 System install and setup preferences for Mac OSX
 
-## System
+## Homebrew
 
-- [Homebrew](https://brew.sh/)
+First install [Homebrew](https://brew.sh/)
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Fonts
-
-### [Monaspace (Nerd Font)](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Monaspace)
+Copy the [Brewfile](Brewfile) from this repo to local directory. Then run:
 
 ```shell
-brew tap homebrew/cask-fonts
-brew install --cask font-monaspace-nerd-font
+brew bundle install --file /path/to/Brewfile
 ```
 
-_Note: this installs into FontBook as "Monaspice"_
+This will install the following:
 
-## Applications
+- **Fonts**
+  - [Monaspace (Nerd Font)](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Monaspace) - preferred Terminal font ('MonaspiceNe Nerd Font Mono')
+- **Packages**
+  - All the CLI utilities listed in the [terminal-setup](terminal-setup.md) guide
+- **Applications**
+  - [1Password](https://1password.com/) - Password manager
+  - [Google Chrome](https://www.google.com/chrome/) - Browser
+  - [iTerm2](https://www.iterm2.com/) - Terminal
+  - [Maccy](https://maccy.app/) - Clipboard manager
+  - [Parsify](https://parsify.app/) - Notepad format calculator
+  - [Rectangle](https://rectangleapp.com/) - Window manager
+  - [Spotify](https://www.spotify.com/) - Music player
+  - [VSCode](https://code.visualstudio.com/) - IDE and code/text editor
+  - [zoom](https://www.zoom.us/) - Video conferencing
+- **Plugins**
+  - All the VSCode plugins listed in the [vscode-setup](vscode-setup.md) guide
 
-### Terminal
+## Node.js
 
-See terminal setup guide [here](terminal-setup.md)
-
-### [Rectangle](https://rectangleapp.com/)
-
-Move and resize windows
-
-```shell
-brew install --cask rectangle
-```
-
-### [Maccy](https://maccy.app/)
-
-Clipboard manager
-
-```shell
-brew install --cask maccy
-```
-
-### [NVM](https://github.com/nvm-sh/nvm)
-
-Node.js Version Manager
+Node should be installed and managed using NVM (Node Version Manager)
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
