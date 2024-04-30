@@ -1,15 +1,37 @@
 # Terminal Setup
 
-## iTerm2
+## Installs
 
-[https://iterm2.com/](https://iterm2.com/)
+_Note: These should already be installed if you used the Brewfile approach described in the [osx-setup](osx-setup.md) guide_
 
-Better terminal
+### iTerm2
 
-Install with Homebrew
+[https://iterm2.com/](https://iterm2.com/) - Better terminal
 
 ```shell
 brew install --cask iterm2
+```
+
+### Packages
+
+- [bat](https://github.com/sharkdp/bat) - Better cat
+- [eza](https://github.com/eza-community/eza) - Better ls
+
+Install all with:
+
+```shell
+brew install bat && brew install eza
+```
+
+## aliases
+
+Create a local copy of the [.shell_aliases](./.shell_aliases) file in this repo
+
+Then add this to your `.zshrc` file:
+
+```shell
+# Custom aliases
+source ~/.shell_aliases
 ```
 
 ## oh my zsh
@@ -22,39 +44,4 @@ Install with curl
 
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-## bat
-
-[https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-
-Better cat, adds syntax highlighting and such
-
-Install with Homebrew
-
-```shell
-brew install bat
-```
-
-## eza
-
-Better ls, customize columns and format
-
-[https://github.com/eza-community/eza](https://github.com/eza-community/eza)
-
-Install with Homebrew
-
-```shell
-brew install eza
-```
-
-## aliases
-
-Create a local copy of the [.shell_aliases](./.shell_aliases) file in this repo
-
-Then add this to your `.zshrc` file:
-
-```shell
-# Custom aliases
-source ~/.shell_aliases
 ```
