@@ -27,7 +27,7 @@ This will install the following:
   - [Google Chrome](https://www.google.com/chrome/) - Browser
   - [iTerm2](https://www.iterm2.com/) - Terminal
   - [Maccy](https://maccy.app/) - Clipboard manager
-  - [Parsify](https://parsify.app/) - Notepad format calculator
+  - [Numi](https://numi.app/) - Notepad format calculator
   - [Rectangle](https://rectangleapp.com/) - Window manager
   - [Spotify](https://www.spotify.com/) - Music player
   - [VSCode](https://code.visualstudio.com/) - IDE and code/text editor
