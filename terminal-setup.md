@@ -23,25 +23,18 @@ Install all with:
 brew install bat && brew install eza
 ```
 
-## aliases
+## zsh shell config
 
-Create a local copy of the [.shell_aliases](./.shell_aliases) file in this repo
+> First ensure zsh is installed and set as the default shell on the system
 
-Then add this to your `.zshrc` file:
+Place (or replace) the following files from this repo to the local system:
 
-```shell
-# Custom aliases
-source ~/.shell_aliases
-```
+- [.zshrc](./.zshrc) - zsh config
+- [.p10k.zsh](./.p10k.zsh) - Powerlevel10k config
+- [.shell_aliases](./.shell_aliases) - Aliases
 
-## oh my zsh
-
-[https://ohmyz.sh/](https://ohmyz.sh/)
-
-Framework for managing Zsh configuration
-
-Install with curl
+Once these are in place, reload zsh with
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+source ~/.zshrc
 ```
