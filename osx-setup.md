@@ -29,8 +29,9 @@ This will install the following:
   - [Maccy](https://maccy.app/) - Clipboard manager
   - [Numi](https://numi.app/) - Notepad format calculator
   - [Rectangle](https://rectangleapp.com/) - Window manager
-  - [Spotify](https://www.spotify.com/) - Music player
+  - [Spotify](https://www.spotify.com/) - Music streaming service
   - [VSCode](https://code.visualstudio.com/) - IDE and code/text editor
+  - [VLC](https://www.videolan.org/vlc/) - Media player
   - [zoom](https://www.zoom.us/) - Video conferencing
 - **Plugins**
   - All the VSCode plugins listed in the [vscode-setup](vscode-setup.md) guide
