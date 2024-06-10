@@ -1,8 +1,8 @@
 # Shell navigation aliases
-alias l="eza --long --color=always --icons=always --no-time --no-user --no-permissions"
-alias la="eza --all --long --color=always --icons=always --no-time --no-user --no-permissions"
-alias lt="eza --tree --icons=always"
-alias lta="eza --all --tree --icons=always"
+alias l="eza --long --color=always --icons=always --time=modified --no-user --no-permissions --total-size"
+alias la="eza --all --long --color=always --icons=always --time=modified --no-user --no-permissions --total-size"
+alias lt="eza --tree --long --color=always --icons=always --time=modified --no-user --no-permissions --total-size"
+alias lta="eza --all --tree --long --color=always --icons=always --time=modified --no-user --no-permissions --total-size"
 
 # Docker aliases
 alias dcup="docker compose up -d"
