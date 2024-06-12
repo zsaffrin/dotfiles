@@ -16,6 +16,7 @@ My preferred Visual Studio Code settings and customizations
   - [CSS-in-JS](https://marketplace.visualstudio.com/items?itemName=paulmolluzzo.convert-css-in-js)
   - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
   - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
+  - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 - Utilities
   - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
@@ -35,6 +36,7 @@ paulmolluzzo.convert-css-in-js
 pkief.material-icon-theme
 rangav.vscode-thunder-client
 styled-components.vscode-styled-components
+tamasfe.even-better-toml
 ```
 
 Then run:
