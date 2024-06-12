@@ -2,9 +2,19 @@
 
 System install and setup preferences for Mac OSX
 
+## XCode
+
+Install the XCode Command-line Tools
+
+```shell
+sudo xcode-select install
+```
+
+_This requires interaction with the UI to complete, look for a popup launched by this command_
+
 ## Homebrew
 
-First install [Homebrew](https://brew.sh/)
+Install [Homebrew](https://brew.sh/)
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
