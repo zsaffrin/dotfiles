@@ -14,7 +14,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     style = 'plain'
     foreground = 'lightGreen'
     background = 'transparent'
-    template = '{{ if .SSHSession }}  {{ .UserName }}@{{ .HostName }} {{ end }}'
+    template = '{{ if .SSHSession }} {{ .UserName }}@{{ .HostName }} {{ end }}'
 
   [[blocks.segments]]
     type = 'path'
