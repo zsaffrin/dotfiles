@@ -66,7 +66,7 @@ echo " ${GREEN}${NC} Done"
 echo "Installing oh-my-posh config... "
 if [ ! -d ~/.config/ohmyposh/ ]; then
   echo -n "Creating ~/.config/ohmyposh directory..."
-  mkdir ~/.config/ohmyposh
+  mkdir -p ~/.config/ohmyposh
   echo " ${GREEN}${NC} Done"
 fi
 
