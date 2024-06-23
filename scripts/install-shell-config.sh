@@ -58,7 +58,7 @@ if [[ (-e ~/.shell_aliases) && ($OVERWRITE = false) ]]; then
 fi
 
 echo -n "Writing ~/.shell_aliases..."
-cp ./.shell_aliases ~/.shell_aliases
+cp ../.shell_aliases ~/.shell_aliases
 echo " ${GREEN}${NC} Done"
 
 
@@ -77,7 +77,7 @@ if [[ (-e ~/.config/ohmyposh/omp-config.toml) && ($OVERWRITE = false) ]]; then
 fi
 
 echo -n "Writing ~/.config/ohmyposh/omp-config.toml..."
-cp ./omp-config.toml ~/.config/ohmyposh/omp-config.toml
+cp ../omp-config.toml ~/.config/ohmyposh/omp-config.toml
 echo " ${GREEN}${NC} Done"
 
 
@@ -90,7 +90,7 @@ if [[ (-e ~/.zshrc) && ($OVERWRITE = false) ]]; then
 fi
 
 echo -n "Writing ~/.zshrc..."
-cp ./.zshrc ~/.zshrc
+cp ../.zshrc ~/.zshrc
 echo " ${GREEN}${NC} Done"
 
 
